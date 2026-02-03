@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Typography.Matule.Headline.Medium"
+            android:textColor="@color/black"
+            android:text="Рубашка Воскресенье для машинного вязания"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/bthClose"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2.5dp"
+            android:src="@drawable/ic_close_bottom_sheet"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            style="@style/Typography.Matule.Title3.Semibold"
+            android:text="300 Р"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            />
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Typography.Matule.Headline.Regular"
+            android:textColor="@color/black"
+            android:layout_marginRight="42dp"
+            android:text="1 шт"/>
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="32dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bthMinus"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_minus"/>
+
+            <ImageView
+                android:id="@+id/bthPlus"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="6dp"
+                android:src="@drawable/ic_plus"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

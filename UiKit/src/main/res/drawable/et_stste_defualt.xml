@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="@color/input_bacgraund" />
+            <stroke
+                android:width="1.5dp"
+                android:color="@color/input_strok" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#F5F5F9" />
+
+            <stroke
+                android:width="1.5dp"
+                android:color="#802254F5" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>

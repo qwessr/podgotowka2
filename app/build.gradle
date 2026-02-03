@@ -29,6 +29,7 @@ android {
 }
 
 dependencies {
+    implementation project(':UiKit')
 
     implementation libs.appcompat
     implementation libs.material

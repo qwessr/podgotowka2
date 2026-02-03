@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TITLE 1 -->
+    <style name="Typography.Matule.Title1.Semibold" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Typography.Matule.Title1.Extrabold" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">24sp</item>
+        <item name="lineHeight">32dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Typography.Matule.Title1.Black" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto_black</item>
+        <item name="android:textFontWeight">400</item>
+        <item name="android:textSize">24sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0.0033</item>
+    </style>
+
+    <!-- TITLE 2 -->
+    <style name="Typography.Matule.Title2.Regular" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Title2.Semibold" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Title2.Extrabold" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">28dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <!-- TITLE 3 -->
+    <style name="Typography.Matule.Title3.Regular" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Title3.Medium" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Title3.Semibold" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <!-- HEADLINE (Body) -->
+    <style name="Typography.Matule.Headline.Regular" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Headline.Medium" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <!-- CAPTION -->
+    <style name="Typography.Matule.Caption.Regular" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="lineHeight">20dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+
+    <style name="Typography.Matule.Caption.Semibold" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">16dp</item>
+        <item name="android:letterSpacing">0.0038</item>
+    </style>
+</resources>
